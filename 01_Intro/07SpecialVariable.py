@@ -57,3 +57,13 @@ File1 is being imported
 File2 __name__ = __main__
 File2 is being run directly 
 '''
+
+
+'''
+    As seen above, 
+
+    - when File1.py is run directly, the interpreter sets the __name__ variable as __main__
+    - and when it is run through File2.py by importing, the __name__ variable is set as the name of the python script, i.e. File1
+    - Thus, it can be said that **if __name__ == "__main__" is the part of the program that runs 
+        when the script is run from the command line using a command like python File1.py.**
+'''
